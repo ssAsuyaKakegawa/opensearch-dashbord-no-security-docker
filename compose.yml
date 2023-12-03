@@ -4,7 +4,5 @@ services:
     container_name: opensearch-dashboards
     environment:
       OPENSEARCH_HOSTS: "http://host.docker.internal:9200"
-      OPENSEARCH_USERNAME: admin
-      OPENSEARCH_PASSWORD: admin
     ports:
       - 5601:5601
